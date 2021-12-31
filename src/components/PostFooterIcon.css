@@ -1,0 +1,23 @@
+.postFooterIcon {
+	width: 3rem;
+	height: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #7a7a7a;
+}
+
+.postFooterIcon__count {
+	color: #7a7a7a;
+	margin: 0.25rem;
+	font-size: 14px;
+}
+
+.reactionIcon {
+	transition: all 0.2s ease;
+}
+
+.reactionIcon.bright,
+.reactionIcon:hover {
+	color: brown;
+}

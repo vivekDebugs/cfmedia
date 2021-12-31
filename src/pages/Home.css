@@ -1,0 +1,35 @@
+.home {
+	padding: 0rem;
+}
+
+.home__addPost,
+.home__logout {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 7rem;
+	padding: 0.25rem;
+	cursor: pointer;
+	background: lightgrey;
+	color: black;
+}
+
+.home__addPost {
+	position: sticky;
+	top: 0;
+}
+
+.home__logout {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.home__username {
+	margin: 0.5rem 0;
+}
+
+.home__navButton.nav {
+	margin: 0;
+}

@@ -1,0 +1,62 @@
+.eachPost {
+	cursor: default;
+}
+.eachPost__timePassed {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.7rem;
+	margin: 0 0.5rem;
+}
+
+.eachPost__date {
+	margin: 0.5rem 0;
+}
+
+.eachPost__date > span {
+	margin: 0 1rem 0 0;
+}
+
+.eachPost__title {
+	font-weight: normal;
+}
+
+.eachPost form {
+	margin: 0.5rem 0;
+	width: 20rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.eachPost input[type='text'] {
+	outline: none;
+	border: none;
+}
+
+.eachPost input[type='submit'] {
+	padding: 0.25rem 0.5rem;
+	cursor: pointer;
+}
+
+.eachPost__post {
+	border-bottom: 0.5px solid lightgray;
+}
+
+.eachPost__comment {
+	margin: 0.25rem 0;
+	padding: 0.25rem 0;
+	border-bottom: 2px solid #fafafa;
+}
+
+.eachPost__media {
+	margin: 0.5rem;
+	max-width: 18rem;
+}
+
+.eachPost__username > a {
+	text-decoration: none;
+	color: black;
+}
+
+.eachPost__username > a:hover {
+	text-decoration: underline;
+}
