@@ -8,3 +8,5 @@ A small social media app built on [Cloudflare workers](https://developers.cloudf
 - Cloudflare workers
 - Cloudflare KV
 - Firebase storage
+
+### [View Deployment](https://cfmedia.pages.dev/)
